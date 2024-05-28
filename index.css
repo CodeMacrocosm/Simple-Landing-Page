@@ -1,0 +1,357 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0a0617;
+    color: white;
+
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+}
+.log{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+nav a:hover {
+    color: #ff5722; /* Highlight color for hover state */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 1.3rem;
+    position: relative;
+    margin-left: 800px;
+    margin-top: -50px;
+ 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a.cta {
+    background-color: #ff5722;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('hero-background1.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    
+}
+/* .hero-content a{
+    margin-right: 800px;
+    color: aliceblue;
+   height: 100px;
+   width: 100px;
+   border: 2px solid red;
+  
+} */
+.btn{
+    margin-right: 1110px;
+    color: aliceblue;
+    background-color: red;
+   position: relative;
+   bottom: -5px;
+    padding: 0.55rem 2rem;
+    border-radius: 10px;
+    font: bold;
+    text-decoration: none;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    margin-right: 800px;
+    margin-top: -200px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-right: 950px;
+    position: relative;
+    top: -20px;
+    }
+
+.hero-content .cta {
+    background-color: #ff5722;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.aboutt{
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #0a0617;
+    height: 700px;
+    
+}
+.btn1{
+    position: relative;
+    bottom: -150px;
+    
+    color: aliceblue;
+    background-color: red;
+   position: relative;
+   left: 80px;
+    padding: 0.55rem 2rem;
+    border-radius: 10px;
+    font: bold;
+    text-decoration: none;
+
+}
+.abtcnt{
+    color: #f9f9f9;
+    position: relative;
+   bottom: -120px;
+   left: 80px;
+   font-size: 1.2rem;
+   font-size:large;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.about-theme{
+    color: #f9f9f9;
+    text-decoration: none;
+   position: relative;
+   bottom: -100px;
+   left: 90px;
+   font-size: 1.2rem;
+   font-size:x-large;
+    
+}
+.about-image{
+    height: 550px;
+    width: 750px;
+    margin-left: 700px;
+    margin-top: -250px;
+}
+.men{
+    margin-left: 700px;
+    font-size: xx-large;
+    font: bolder;
+    color: #f9f9f9;
+}
+.menu-item h3{
+    font-size: xx-large;
+}
+.menu{
+  background-color: #0a0617;
+   
+    margin-top: -30px;
+   
+}
+.menu-item:hover{
+    transform: scale(1.2);
+}
+.menu-items{
+    display: flex;
+    color: #f9f9f9;
+    list-style: none;
+    margin-left: 170px;
+    gap: 5rem;
+}
+ .menu-item img {
+    width: 150%;
+    max-width: 350px;
+    border-radius: 10px;
+}
+
+#menu .menu-item {
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+}
+.reservations{
+    background-color: #0a0617;
+    margin-top: -26px;
+    height: 500px;
+}
+/* .sep{
+    border: 2px solid red;
+    height: 400px;
+    border-radius: 50px;
+    box-shadow: 2px 5px 1px 1px white;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+} */
+.make{
+    margin-left: 620px;
+    color: #f9f9f9;
+    font-size: xx-large;
+}
+.testimonials{
+   background-color: #0a0617;
+   margin-top: -27px;
+}
+.cust1{
+height: 20vh;
+    
+    object-fit:cover;
+    border-radius: 280px; 
+}
+.what{
+    margin-left: 550px;
+    font-size: xx-large;
+    color: #f9f9f9;
+}
+.testimonial{
+    margin-left: 700px;
+    height: 300px;
+}
+.testimonial .mnm{
+    margin-left: -150px;
+    color: #f9f9f9;
+}
+.cust33{
+   
+    height: 20vh;
+    
+    object-fit:cover;
+    border-radius: 280px;
+}
+blockquote {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-left: 5px solid #ff5722;
+    margin: 1rem auto;
+    max-width: 600px;
+}
+.gallery h2{
+    margin-left: 700px;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding: 10px;
+    color: #f9f9f9;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.gallery{
+    background-color: #0a0617;
+    
+}
+.image-grid{
+    display: flex;
+    margin-left: 30px;
+    
+}
+.zc{
+    height: 330px;
+    width: 330px;
+    padding: 1rem ;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+#location iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #ff5722;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+footer ul a {
+    color: white;
+    text-decoration: none;
+}
+.cntt{
+    margin-left: 700px;
+    font-size: xx-large;
+   color: #f9f9f9;
+}
+.contact-info{
+    display: flex;
+    margin-left: 500px;
+    gap: 2rem;
+    color: #f9f9f9;
+}
+.contact{
+    background-color: #333;
+}
+.lgg{
+    height: 200px;
+    width: 200px;
+    
+}
+.footer{
+    background-color: #0a0617;
+    
+}
+.footer-links{
+    display: flex;
+    gap: 2rem;
+    margin-left: 500px;
+}
+.mannn{
+    overflow: hidden;
+}
+.zc:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}

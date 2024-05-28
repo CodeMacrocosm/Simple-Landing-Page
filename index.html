@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Berger Hut</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<style>
+    /* CSS for the login page */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.login-form {
+   
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 10px 10px  10px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-left: -300px;
+    background: linear-gradient(to bottom right, rgba(79, 51, 176, 1), rgba(210, 53, 165, 1));}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #555;
+}
+
+.login-form p {
+    margin-top: 10px;
+}
+
+.login-form p a {
+    color: #333;
+    text-decoration: none;
+}
+.lgg{
+color: #f2f2f2;
+text-decoration: none;
+}
+body{
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+</style>
+<body > 
+
+<div class="login-container">
+    <div class="login-form">
+        <h2>Login to Berger Hut</h2>
+        <form action="login_action.php" method="post">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit"><a class="lgg" href="index1 (2).html">LOGIN</a></button>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+</div>
+
+
+<script>
+    // login.js
+
+document.addEventListener('DOMContentLoaded', function() {
+    const loginForm = document.getElementById('login-form');
+
+    loginForm.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent form submission
+
+        // Get username and password from form
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+
+        // Placeholder for user validation logic
+        if (username === "user" && password === "password") {
+            // Redirect to index.html upon successful login
+            window.location.href = 'index.html';
+        } else {
+            // Display error message for invalid credentials
+            const errorElement = document.getElementById('error-message');
+            errorElement.textContent = "Invalid username or password";
+        }
+    });
+});
+
+</script>
+</body>
+</html>
